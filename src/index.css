@@ -67,6 +67,7 @@ h2 {
   font-size: 32px;
   margin-bottom: 32px;
   text-align: center;
+  z-index: 70;
 }
 
 button {
@@ -256,8 +257,8 @@ header {
   z-index: 50;
   
   /* Added this after the tutorial to 
-  make landing page responsive on laptops */
-  max-height: 50vh;
+  make landing page responsive on laptops 
+  max-height: 50vh;  */
 }
 
 .container {
@@ -362,6 +363,7 @@ FEATURES
 */
 
 #features {
+  position: relative;
   padding-top: 8vw;
   background-color: rgba(115, 66, 214, 0.1);
 }
