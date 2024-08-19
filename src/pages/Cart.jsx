@@ -78,7 +78,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                                 </div> 
                                 <div className="total__item total__price">
                                     <span>Total</span>
-                                    <span>${(total()).toFixed(2)}</span>
+                                    <span>${total()}</span>
                                 </div>
                                 <button 
                                 className="btn btn__checkout no-cursor"
