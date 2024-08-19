@@ -4,7 +4,7 @@ import {books} from '../data';
 
 const Featured = (id) => { 
     return (
-        <section className="features">
+        <section id="features">
             <div className="container">
                 <div className="row">
                     <h2 className="section__title">
