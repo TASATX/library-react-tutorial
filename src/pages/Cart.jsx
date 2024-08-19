@@ -53,10 +53,11 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                                         />
                                     </div>
                                     <div className="cart__total">
-                                    ${((book.salePrice || book.originalPrice) * book.quantity).toFixed(2)}
+                                    {((book.salePrice || book.originalPrice) * book.quantity).toFixed(2)}
                                     </div>
                                 </div>
-                                ))}
+                                )
+                            )}
                             </div>
                             {cart.length === 0 ? (
                             <div className="cart__empty">
